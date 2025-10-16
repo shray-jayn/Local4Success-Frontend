@@ -8,80 +8,80 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 30 25% 97%;
-    --foreground: 240 30% 15%;
+    --background: 0 0% 98%;
+    --foreground: 220 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 30% 15%;
+    --card-foreground: 220 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 30% 15%;
+    --popover-foreground: 220 25% 20%;
 
-    --primary: 350 65% 45%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 220 40% 35%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 30 20% 94%;
-    --secondary-foreground: 240 30% 15%;
+    --secondary: 220 15% 94%;
+    --secondary-foreground: 220 25% 20%;
 
-    --muted: 30 20% 94%;
-    --muted-foreground: 240 15% 45%;
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 15% 50%;
 
-    --accent: 40 85% 55%;
-    --accent-foreground: 240 30% 15%;
+    --accent: 25 50% 55%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 30 20% 88%;
-    --input: 30 20% 88%;
-    --ring: 350 65% 45%;
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 220 40% 35%;
 
     --radius: 1rem;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(350, 65%, 45%) 0%, hsl(340, 70%, 50%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(40, 85%, 55%) 0%, hsl(35, 90%, 58%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(240, 40%, 18%) 0%, hsl(350, 65%, 40%) 40%, hsl(40, 85%, 55%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(30, 25%, 97%) 0%, hsl(30, 20%, 93%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(220, 40%, 35%) 0%, hsl(220, 45%, 42%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(25, 50%, 55%) 0%, hsl(30, 55%, 60%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(220, 40%, 30%) 0%, hsl(220, 35%, 40%) 50%, hsl(25, 45%, 50%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0, 0%, 98%) 0%, hsl(220, 10%, 95%) 100%);
     
-    --shadow-elegant: 0 20px 60px -15px hsl(350 65% 45% / 0.35);
-    --shadow-glow: 0 0 60px hsl(350 65% 45% / 0.4);
-    --shadow-card: 0 4px 24px -4px hsl(240 30% 15% / 0.08);
+    --shadow-elegant: 0 20px 60px -15px hsl(220 40% 35% / 0.25);
+    --shadow-glow: 0 0 50px hsl(220 40% 35% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(220 25% 20% / 0.06);
     
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
   .dark {
-    --background: 240 35% 10%;
-    --foreground: 30 15% 95%;
+    --background: 220 40% 12%;
+    --foreground: 0 0% 95%;
 
-    --card: 240 30% 14%;
-    --card-foreground: 30 15% 95%;
+    --card: 220 35% 16%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 240 30% 14%;
-    --popover-foreground: 30 15% 95%;
+    --popover: 220 35% 16%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 350 65% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 220 40% 45%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 25% 18%;
-    --secondary-foreground: 30 15% 95%;
+    --secondary: 220 30% 20%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 240 25% 18%;
-    --muted-foreground: 240 10% 65%;
+    --muted: 220 30% 20%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 40 85% 58%;
-    --accent-foreground: 240 30% 15%;
+    --accent: 25 50% 60%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 63% 31%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 240 25% 20%;
-    --input: 240 25% 20%;
-    --ring: 350 65% 50%;
+    --border: 220 30% 22%;
+    --input: 220 30% 22%;
+    --ring: 220 40% 45%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(240, 35%, 12%) 0%, hsl(350, 65%, 38%) 40%, hsl(40, 85%, 52%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(220, 40%, 15%) 0%, hsl(220, 35%, 35%) 50%, hsl(25, 45%, 48%) 100%);
   }
 }
 
